@@ -1,4 +1,8 @@
-
+/**
+ * @file project_main.c
+ * @author Prajwal M
+ * @brief Project to ON LED when both the input switches are ON.
+ */
 
 
 #include <avr/io.h>
