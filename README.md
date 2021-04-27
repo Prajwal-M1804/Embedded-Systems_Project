@@ -11,4 +11,4 @@
 
 | Build  | Cppcheck |
 |--------|----------|
-|
+|         |[![Cppcheck](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml) |
