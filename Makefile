@@ -1,4 +1,4 @@
-PROJ_NAME = Activity 1
+PROJ_NAME = Activity1
 
 BUILD_DIR = Build
 
