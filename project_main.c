@@ -5,8 +5,7 @@
  */
 
 
-#include <avr/io.h>
-#include <util/delay.h>
+#include "lib.h"
 
 int main(void)
 {
