@@ -5,7 +5,7 @@
  */
 
 
-#include "lib.h"
+#include "Activity1.h"
 
 int main(void)
 {
