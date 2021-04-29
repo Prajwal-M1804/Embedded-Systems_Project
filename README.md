@@ -1,6 +1,6 @@
 # Embedded-Systems_Project
 
-## Activity1 In Action
+## Project In Action
 
 | ON | OFF |
 |----|-----|
