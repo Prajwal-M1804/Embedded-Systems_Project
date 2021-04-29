@@ -8,6 +8,10 @@
  * 
  */
 
+#include <avr/io.h>
+#include <util/delay.h>
+
+
 activity1();
 
 #endif // ACTIVITY1_H_INCLUDED
