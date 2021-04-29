@@ -3,8 +3,8 @@ PROJ_NAME = Activity1
 BUILD_DIR = Build
 
 # All Source code files
-SRC = project_main.c\
-src/activity1.c
+SRC = src/activity1.c\
+project_main.c\
 
 
 # All header file paths
