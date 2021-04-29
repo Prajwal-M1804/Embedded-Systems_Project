@@ -1,6 +1,6 @@
 # Embedded-Systems_Project
 
-## Project In Action (Seat_Heating_APP)
+## Project In Action (Seat_Heating_App)
 
 | Activity1 | Activity2 |
 |----|-----|
