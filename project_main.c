@@ -8,6 +8,8 @@
 #include "activity1.h"
 #include "activity2.h"
 #include "activity3.h"
+#include "activity4.h"
+
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -18,7 +20,8 @@ int main(void)
     uint16_t temp;
     void InitPWM();
     char OutPWM ();
-    uint16_t temp_data;
+    char temp_data;
+    USARTInit(103);
     
     while(1)
 {
@@ -31,12 +34,16 @@ int main(void)
     _delay_ms(200);
         
         temp_data = OutPWM(temp);
+        
+        USARTwrite(temp_data);
     }
+        
     else
         {
 
     PORTB&=~(1<<PB0);
     _delay_ms(200);
+        OCR1A=0;
     }
 
 }
