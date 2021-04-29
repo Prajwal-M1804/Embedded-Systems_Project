@@ -2,7 +2,7 @@
 #define ACTIVITY1_H_INCLUDED
 
 /**
- * @file lib.h
+ * @file activity1.h
  * @author Prajwal M
  * @brief User defined utilities used across the project
  * 
