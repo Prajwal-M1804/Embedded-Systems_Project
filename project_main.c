@@ -5,7 +5,7 @@
  */
 
 
-#include "Activity1.h"
+#include "activity1.h"
 
 int main(void)
 {
