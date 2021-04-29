@@ -29,6 +29,8 @@ int main(void)
         
         temp=ReadADC(0);
     _delay_ms(200);
+        
+        temp_data = OutPWM(temp);
     }
     else
         {
