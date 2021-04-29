@@ -10,6 +10,6 @@
 
 ## CI and Code Quality
 
-| Build  | Cppcheck |
-|--------|----------|
-|  [![Compile-Linux](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/Compile.yml/badge.svg)](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/Compile.yml)       |[![Cppcheck](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml) |
+| Build  | Cppcheck |Codacy|
+|--------|----------|------|
+|  [![Compile-Linux](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/Compile.yml/badge.svg)](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/Compile.yml)       |[![Cppcheck](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/Prajwal-M1804/Embedded-Systems_Project/actions/workflows/CodeQulaity.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/874f0e032b6d4ab8bfb35c3ac564ae76)](https://www.codacy.com/gh/Prajwal-M1804/Embedded-Systems_Project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Prajwal-M1804/Embedded-Systems_Project&amp;utm_campaign=Badge_Grade) |
