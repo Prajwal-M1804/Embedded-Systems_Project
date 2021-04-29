@@ -12,6 +12,6 @@
 #include <util/delay.h>
 
 
-activity1();
+void activity1(void);
 
 #endif // ACTIVITY1_H_INCLUDED
