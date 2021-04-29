@@ -1,5 +1,5 @@
-#ifndef __LIB_H__
-#define __LIB_H__
+#ifndef ACTIVITY1_H_INCLUDED
+#define ACTIVITY1_H_INCLUDED
 
 /**
  * @file lib.h
@@ -8,8 +8,6 @@
  * 
  */
 
-#include <avr/io.h>
-#include <util/delay.h>
+activity1();
 
-
-#endif /* __LIB_H__ */
+#endif // ACTIVITY1_H_INCLUDED
