@@ -22,7 +22,7 @@ char USARTReadChar()                       // Read values from sensors
 void USARTWriteChar(uint16_t temp_value)                // Displays temperature outputs in degree celsius based on the input from the sensor
 {
 
-    if(temp_value>=0&&temp_value<=209)
+    if(temp_value>=0 && temp_value<=209)
     {
         unsigned char output01[]="Temperature is 20 degree Celsius \n";
         int i = 0;
@@ -34,7 +34,7 @@ void USARTWriteChar(uint16_t temp_value)                // Displays temperature 
         }
     }
 
-    if(temp_value>=210&&temp_value<=509)
+    if(temp_value>=210 && temp_value<=509)
     {
         unsigned char output02[]="Temperature is 25 degree Celsius \n";
         int i = 0;
@@ -46,7 +46,7 @@ void USARTWriteChar(uint16_t temp_value)                // Displays temperature 
         }
     }
 
-    if(temp_value>=510&&temp_value<=709)
+    if(temp_value>=510 && temp_value<=709)
     {
         unsigned char output03[]="Temperature is 29 degree Celsius \n";
         int i = 0;
@@ -59,7 +59,7 @@ void USARTWriteChar(uint16_t temp_value)                // Displays temperature 
     }
 
 
-    if(temp_value>=710&&temp_value<=1024)
+    if(temp_value>=710 && temp_value<=1024)
     {
         unsigned char output04[]="Temperature is 33 degree Celsius \n";
         int i = 0;
