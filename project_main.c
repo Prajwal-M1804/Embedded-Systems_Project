@@ -18,7 +18,7 @@
 
 int main(void)
 {
-    activity1();
+    LED_ON();
     
     InitADC();
     uint16_t temp;
