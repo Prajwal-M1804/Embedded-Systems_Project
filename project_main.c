@@ -20,35 +20,35 @@ int main(void)
 {
     LED_ON();
     
-    InitADC();
-    uint16_t temp;
+    InitADC();          // Initialize ADC ports
+    uint16_t temp;       
     
-   init_PWM();
+   init_PWM();          // Start PWM generation
    
-   init_uart(103);
+   init_uart(103);      // Initialize ports for UART
     
     while(1)
 {
-    if(!(PIND&(1<<PD0)) && !(PIND&(4<<PD0)))
+    if(!(PIND&(1<<PD0)) && !(PIND&(4<<PD0)))  // Check whether both the swithes were closed
     {
-        PORTB|=(1<<PB0);
+        PORTB|=(1<<PB0);   // Led ON
     _delay_ms(200);
         
-        temp=ReadADC(0);
+        temp=ReadADC(0);    // Read adc values from sensors
     _delay_ms(200);
         
-       compare_adc();
+       compare_adc();       // compare sensor output and give required PWM
     OCR0A = temp;
     _delay_ms(200);
 
         
-        USARTWriteChar(temp);
+        USARTWriteChar(temp);      // Read the sensor value and give output in degree celsius
     }
         
     else
         {
 
-    PORTB&=~(1<<PB0);
+    PORTB&=~(1<<PB0);              // Led Off
     _delay_ms(200);
         
     }
