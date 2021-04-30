@@ -1,4 +1,5 @@
 #include<avr/io.h>
+#include "activity2.h"
 
 
 uint16_t ReadADC(uint8_t ch)
