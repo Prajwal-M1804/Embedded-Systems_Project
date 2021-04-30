@@ -24,11 +24,8 @@ int main(void)
     uint16_t temp;
     
    init_PWM();
-   compare_adc();
-   OCR0A = temp;
-   _delay_ms(200);
-    
-    init_uart(103);
+   
+   init_uart(103);
     
     while(1)
 {
