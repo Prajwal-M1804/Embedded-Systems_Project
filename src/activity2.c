@@ -2,7 +2,7 @@
 #include "activity2.h"
 
 
-uint16_t ReadADC(uint8_t ch)
+uint16_t ReadADC(uint8_t ch)                // Read ADC values from sensor
 {
     //Select ADC Channel ch must be 0-7
     ADMUX&=0xf8;
@@ -16,7 +16,7 @@ uint16_t ReadADC(uint8_t ch)
     ADCSRA|=(1<<ADIF);
     return(ADC);
 }
-void InitADC()
+void InitADC()                  // Initialize ADC
 {
     ADMUX=(1<<REFS0);
     ADCSRA=(1<<ADEN)|(7<<ADPS0);
