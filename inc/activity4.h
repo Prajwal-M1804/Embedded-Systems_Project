@@ -3,7 +3,7 @@
 
 #include<avr/io.h>
 
-void init_uart(uint16_t ubrr_value);
+void USARTInit(uint16_t ubrr_value);
 char USARTReadChar();
 void USARTWriteChar(uint16_t temp_value);
 
