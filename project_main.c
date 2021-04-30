@@ -21,7 +21,7 @@ int main(void)
     void InitPWM();
     char OutPWM ();
     char temp_data;
-    USARTInit(103);
+    init_uart(103);
     
     while(1)
 {
@@ -35,7 +35,7 @@ int main(void)
         
         temp_data = OutPWM(temp);
         
-        USARTwrite(temp_data);
+        USARTWriteChar(temp);
     }
         
     else
