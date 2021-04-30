@@ -22,7 +22,7 @@ char USARTReadChar()                       // Read values from sensors
 void USARTWriteChar(uint16_t temp_value)                // Displays temperature outputs in degree celsius based on the input from the sensor
 {
 
-    if(temp_value>=0&&temp_value<=209)
+    if(temp_value==0&&temp_value<=209)
     {
         unsigned char output01[]="Temperature is 20 degree Celsius \n";
         int i = 0;
