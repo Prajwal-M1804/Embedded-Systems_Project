@@ -1,7 +1,7 @@
 #include<avr/io.h>
 #include "activity4.h"
 
-void init_uart(uint16_t ubrr_value)            // Initialize UART
+void USARTInit(uint16_t ubrr_value)            // Initialize UART
 {
     UBRR0L = ubrr_value;
     UBRR0H = (ubrr_value>>8)&0x00ff;
