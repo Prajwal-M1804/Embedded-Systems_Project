@@ -9,7 +9,6 @@ void init_PWM()
     DDRD |= (1<<PD6);
 }
 
-
 void compare_adc()
 {
      if (ADC>0 && ADC<209){
