@@ -2,14 +2,14 @@
 #include<avr/io.h>
 #include"activity3.h"
 
-void init_PWM()
+void init_PWM()              // Initialize PWM
 {
     TCCR0A |= (1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
     TCCR0B |= (1<<CS00);
     DDRD |= (1<<PD6);
 }
 
-void compare_adc()
+void compare_adc()              // Compares sensor output and gives required  PWM
 {
      if (ADC>0 && ADC<209){
         OCR0A = 51;
