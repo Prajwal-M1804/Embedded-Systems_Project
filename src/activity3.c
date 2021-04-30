@@ -2,7 +2,7 @@
 #include<avr/io.h>
 #include"activity3.h"
 
-void init_PWM()              // Initialize PWM
+void Init_PWM()              // Initialize PWM
 {
     TCCR0A |= (1<<COM0A1)|(1<<WGM01)|(1<<WGM00);
     TCCR0B |= (1<<CS00);
