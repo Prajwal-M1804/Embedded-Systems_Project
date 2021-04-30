@@ -9,7 +9,7 @@ void Init_PWM()              // Initialize PWM
     DDRD |= (1<<PD6);
 }
 
-void compare_adc()              // Compares sensor output and gives required  PWM
+void compare_adc()          // Compares sensor output and gives required  PWM
 {
      if (ADC>0 && ADC<209){
         OCR0A = 51;
