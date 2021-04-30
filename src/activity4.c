@@ -1,7 +1,7 @@
 #include<avr/io.h>
 #include "activity4.h"
 
-void init_uart(uint16_t ubrr_value)
+void init_uart(uint16_t ubrr_value)            // Initialize UART
 {
     UBRR0L = ubrr_value;
     UBRR0H = (ubrr_value>>8)&0x00ff;
@@ -9,7 +9,7 @@ void init_uart(uint16_t ubrr_value)
     UCSR0B = (1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0);
 }
 
-char USARTReadChar()
+char USARTReadChar()                       // Read values from sensors
 {
     while(!(UCSR0A & (1<<RXC0)))
     {
@@ -19,7 +19,7 @@ char USARTReadChar()
 }
 
 
-void USARTWriteChar(uint16_t temp_value)
+void USARTWriteChar(uint16_t temp_value)                // Displays temperature outputs in degree celsius based on the input from the sensor
 {
 
     if(temp_value>=0&&temp_value<=209)
