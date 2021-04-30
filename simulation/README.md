@@ -26,6 +26,15 @@
 
 ![image](https://user-images.githubusercontent.com/80813102/116557353-fe43cf00-a91b-11eb-93f5-093c89c5f62b.png)
 
+# Activity3 In Action
+
+![image](https://user-images.githubusercontent.com/80813102/116680360-30f7d100-a9c9-11eb-9399-71179a5ab80a.png)
+
+
+# Activity4 In Action
+
+
+![image](https://user-images.githubusercontent.com/80813102/116680891-ddd24e00-a9c9-11eb-9650-bff5c4aad6e3.png)
 
 
 
