@@ -3,7 +3,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-void activity1()
+void LED_ON()
 {
     DDRB|=(1<<PB0);
     DDRD&=~(1<<PD0);
