@@ -25,7 +25,7 @@ int main(void)
     
    init_PWM();          // Start PWM generation
    
-   init_uart(103);      // Initialize ports for UART
+  USARTInit(103);      // Initialize ports for UART
     
     while(1)
 {
