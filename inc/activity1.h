@@ -12,6 +12,6 @@
 #include <util/delay.h>
 
 
-void activity1(void);
+void LED_ON(void);
 
 #endif // ACTIVITY1_H_INCLUDED
