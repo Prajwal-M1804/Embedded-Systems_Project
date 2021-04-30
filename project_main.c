@@ -23,7 +23,7 @@ int main(void)
     InitADC();          // Initialize ADC ports
     uint16_t temp;       
     
-   init_PWM();          // Start PWM generation
+   Init_PWM();          // Start PWM generation
    
   USARTInit(103);      // Initialize ports for UART
     
