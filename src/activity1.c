@@ -5,7 +5,7 @@
 
 void LED_ON()
 {
-    DDRB|=(1<<PB0);
+    DDRB|=(1<<PB0);          // Initialize input and output pins
     DDRD&=~(1<<PD0);
     DDRD&=~(4<<PD0);
     PORTD|=(1<<PD0);
