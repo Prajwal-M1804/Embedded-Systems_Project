@@ -11,7 +11,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
 void LED_ON(void);
 
 #endif // ACTIVITY1_H_INCLUDED
