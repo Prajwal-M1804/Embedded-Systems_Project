@@ -10,5 +10,4 @@ void LED_ON()
     DDRD&=~(4<<PD0);
     PORTD|=(1<<PD0);
     PORTD|=(4<<PD0);
-
 }
