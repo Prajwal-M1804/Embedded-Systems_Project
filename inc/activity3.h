@@ -1,9 +1,10 @@
 #ifndef ACTIVITY3_H_INCLUDED
 #define ACTIVITY3_H_INCLUDED
 
-#include<avr/io.h>
+#include <avr/io.h>
+#include <util/delay.h>
 
-char OutPWM(uint16_t temp_value);
-void InitPWM(void);
+void init_PWM();
+void compare_adc();
 
 #endif // ACTIVITY3_H_INCLUDED
