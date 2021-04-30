@@ -1,7 +1,7 @@
 /**
  * @file project_main.c
  * @author Prajwal M
- * @brief Project to ON LED when both the input switches are ON.
+ * @brief Project to Seat Heating Application.
  */
 
 
